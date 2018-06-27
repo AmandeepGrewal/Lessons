@@ -1,0 +1,40 @@
+﻿h1, p {font-family: 'Rancho', cursive;}
+p {
+font-size:1.7em;
+text-align:center;
+margin-bottom:0;
+padding:0 0.5em;
+}
+
+h1 {font-size: 1.8em;
+    text-align:center;
+    padding:0 0.5em;
+}
+.highlight {
+    text-shadow: 0.5px 0px 7px #f00;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../images/soldierNeverDies.jpg");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgba(161,168,184, 0.7); /* Black background with 0.5 opacity */
+    color: #000; /* Grey text */
+    width: 100%; /* Full width */
+    text-shadow: 0.5px 0px #f00;
+}
